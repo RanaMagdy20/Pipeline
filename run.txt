@@ -1,0 +1,5 @@
+vlib work
+vlog -f src.txt
+vsim -voptargs=+acc work.TOP_TB
+add wave *
+run -all
